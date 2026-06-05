@@ -152,9 +152,7 @@ button:disabled {
   background: #20242a;
   color: #fff;
   isolation: isolate;
-  transition:
-    background 160ms ease,
-    transform 160ms ease;
+ transition: transform 160ms ease;
 }
 
 .reaction-target:hover {
