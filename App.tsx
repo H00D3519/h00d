@@ -143,7 +143,7 @@ function App() {
 
             <button
               className={`reaction-target ${gameState}`}
-              onClick={handleReactionPress}
+              onPointerDown={handleReactionPress}
               type="button"
               aria-label="reaction button"
             >
